@@ -1,2 +1,2 @@
 // comment
-systems();
+systems({});

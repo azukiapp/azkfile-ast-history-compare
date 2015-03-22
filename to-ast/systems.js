@@ -26,10 +26,31 @@
               "indent": 0
             }
           },
-          "arguments": [],
+          "arguments": [
+            {
+              "type": "ObjectExpression",
+              "properties": [],
+              "range": [
+                19,
+                21
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "end": {
+                  "line": 2,
+                  "column": 10
+                },
+                "lines": {},
+                "indent": 0
+              }
+            }
+          ],
           "range": [
             11,
-            20
+            22
           ],
           "loc": {
             "start": {
@@ -38,7 +59,7 @@
             },
             "end": {
               "line": 2,
-              "column": 9
+              "column": 11
             },
             "lines": {},
             "indent": 0
@@ -46,7 +67,7 @@
         },
         "range": [
           11,
-          21
+          23
         ],
         "loc": {
           "start": {
@@ -55,7 +76,7 @@
           },
           "end": {
             "line": 2,
-            "column": 10
+            "column": 12
           },
           "lines": {},
           "indent": 0
@@ -88,7 +109,7 @@
     ],
     "range": [
       11,
-      21
+      23
     ],
     "loc": {
       "lines": {},
@@ -98,7 +119,7 @@
       },
       "end": {
         "line": 2,
-        "column": 10
+        "column": 12
       },
       "indent": 0
     },
@@ -113,7 +134,7 @@
     },
     "end": {
       "line": 2,
-      "column": 10
+      "column": 12
     }
   },
   "type": "File",
