@@ -1,2 +1,5 @@
 // comment
-systems({});
+systems({
+	system1: {},
+	system2: {}
+});
