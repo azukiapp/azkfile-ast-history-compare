@@ -19,6 +19,7 @@
   "dependencies": {
     "azk-parser": "^0.1.3",
     "babel": "^4.7.16",
-    "bluebird": "^2.9.14"
+    "bluebird": "^2.9.14",
+    "esprima-fb": "~13001.1.0-dev-harmony-fb"
   }
 }
