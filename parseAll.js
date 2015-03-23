@@ -27,7 +27,7 @@ glob('./from-code/**/*.js', {}, function(err, files) {
 
       // get destination path
       var parsed_path = path.parse(file);
-1      parsed_path.dir = parsed_path.dir.replace(/from-code/g, 'to-ast');
+      parsed_path.dir = parsed_path.dir.replace(/from-code/g, 'to-ast');
       var format_path = path.format(parsed_path);
 
       // save AST
