@@ -1,2 +1,3 @@
 systems({
+  system1: {}
 });

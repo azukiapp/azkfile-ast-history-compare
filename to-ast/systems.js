@@ -12,7 +12,23 @@
         "arguments": [
           {
             "type": "ObjectExpression",
-            "properties": []
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "system1"
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "properties": []
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false
+              }
+            ]
           }
         ]
       }
