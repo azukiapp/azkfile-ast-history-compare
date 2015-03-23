@@ -46,8 +46,9 @@
                     {
                       "type": "Property",
                       "key": {
-                        "type": "Identifier",
-                        "name": "IMAGE"
+                        "type": "Literal",
+                        "value": "IMAGE",
+                        "raw": "'IMAGE'"
                       },
                       "value": {
                         "type": "ObjectExpression",
