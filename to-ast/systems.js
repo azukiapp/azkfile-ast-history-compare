@@ -21,7 +21,29 @@
                 },
                 "value": {
                   "type": "ObjectExpression",
-                  "properties": []
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "depends"
+                      },
+                      "value": {
+                        "type": "ArrayExpression",
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "value": "system2",
+                            "raw": "'system2'"
+                          }
+                        ]
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
+                    }
+                  ]
                 },
                 "kind": "init",
                 "method": false,

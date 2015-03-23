@@ -1,3 +1,5 @@
 systems({
-  system1: {}
+  system1: {
+  	depends: ['system2']
+  }
 });
