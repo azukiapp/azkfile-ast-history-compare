@@ -21,9 +21,9 @@ glob('./from-code/**/*.js', {}, function(err, files) {
   files.forEach(function(file) {
     fileUtils.read(file).then(function(content) {
       // parse code to AST
-      var ast = parser.parse(content).syntax;
-      // var ast = esprima.parse(content,
-      //   {raw: false, tokens: false, range: false, comment: false, loc: false });
+      // var ast = parser.parse(content).syntax;
+      var ast = esprima.parse(content,
+        {raw: false, tokens: false, range: false, comment: false, loc: false });
 
       // get destination path
       var parsed_path = path.parse(file);
