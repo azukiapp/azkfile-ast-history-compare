@@ -42,6 +42,39 @@
                       "method": false,
                       "shorthand": false,
                       "computed": false
+                    },
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "IMAGE"
+                      },
+                      "value": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Literal",
+                              "value": "DOCKER",
+                              "raw": "'DOCKER'"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "DOCKER_REPO",
+                              "raw": "'DOCKER_REPO'"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
+                          }
+                        ]
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
